@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title>
+    <style>
+        /* element selector */
+        h1{
+            color:red;
+        }
+        /* id selector */
+        #t1{
+            color: rebeccapurple;
+        }
+        /* class selector */
+        .c1{
+            color:aqua;
+        }.c2{
+            font-size:12px;
+        }
+        p.c1{
+            color: brown;
+        }
+        /* universal selector */
+        *{
+            color:blue;
+        }
+        /* group selector */
+        h1,p,#t1{
+            color:yellow
+        }
+        /* all p in div get this style */
+        div p{
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> hello</h1>
+    <h1 id="t1"> hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat?</p>
+    <p class="c1 c2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat?</p>
+    <p class="c1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat?</p>
+    <h1 class="c1"> bye</h1>
+    <h1 class="c1"> bye</h1>
+    <h1> bye</h1>
+
+</body>
+</html>
